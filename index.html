@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              
+            }
+          }
+        }
+      </script>
+</head>
+<body class="bg-slate-50">
+
+  <div class=" bg-slate-100 flex flex-row justify-center h-screen items-center space-x-6">
+  <div class="w-[500px] p-4">
+  <h1 class="text-blue-500 text-4xl font-sans font-extrabold mb-5">Facebook</h1>
+  <p class="font-sans text-3xl" > Facebook helps you connect and share with the people in your life.</p>
+</div>
+
+  <div class=" bg-red-500 h-[350px] w-[400px] container flex flex-col  items-center bg-white shadow-2xl rounded-2xl mr-10">
+    <form action="" class="mt-5">
+      <input type="text" placeholder="Email or Phone Number" class ="mb-5 py-3 px-4 border border-gray-300 w-[350px] h-[50] rounded-md"> <br>
+
+      <input type="text" placeholder="Password" class=" mb-5 py-3 px-4 border rounded-md border-gray-300 w-[350px] h-[50px]"><br>
+      <button class=" text-white bg-blue-500 mb-3 py-2 w-[350px] h-[50px] rounded-md">Login</button>
+      <p class="text-center text-blue-500 ">forgotten Password?</p>
+      
+
+    </form>
+    <!-- last item -->
+     <div class="flex mt-5">
+    <hr class="mt-3 w-36">
+
+      <div class="relative flex justify-center">   
+        <span class="bg-white px-4 text-sm text-gray-500"> or</span>
+      </div>
+      <hr class=" w-36 mt-3 ">
+
+      </div>
+
+      <button class=" text-white bg-green-500 mb-3 py-2 w-52 rounded-md font-extrabold h-[40px] mt-3">Create an Account </button>
+      
+  </div>
+
+
+   
+  </div>
+</body>
+</html>
